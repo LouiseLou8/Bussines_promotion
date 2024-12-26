@@ -521,6 +521,7 @@ button {
 .container {
 }
 .price-container {
+  padding-bottom: 96px;
 }
 .price-title {
   font-weight: 700;
@@ -541,20 +542,125 @@ button {
   gap: 72px;
 }
 .price-list-item {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  border-radius: 8px;
+  width: 322px;
+  min-height: 456px;
+  padding: 32px 72px;
 }
+
 .price-list-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  color: #22343d;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .price-list-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+  margin-bottom: 16px;
+  text-align: center;
 }
+
 .price-list-number {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+
+  color: #02897a;
+}
+.price-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  min-width: 187px;
 }
 .price-list-sign {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  margin-bottom: 4px;
 }
 .price-list-period {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
 }
 .card-list {
 }
 .card-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.card-list-item:last-child {
+  margin-bottom: 30px;
 }
 .card-btn {
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: #02897a;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* What Clients Say section */
+.review {
+}
+.container {
+}
+.review-container {
+}
+.review-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  line-height: 1.78125;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  margin-bottom: 10px;
+}
+.review-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 40px;
+  width: 537px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.review-list {
+}
+.review-list-item {
+}
+.review-list-text {
+}
+.review-list-img {
+}
+.review-list-name {
+}
+.review-list-prof {
 }
