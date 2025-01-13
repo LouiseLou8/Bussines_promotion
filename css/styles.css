@@ -22,6 +22,18 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .container {
   max-width: 1150px;
@@ -632,6 +644,7 @@ button {
 .container {
 }
 .review-container {
+  margin-bottom: 100px;
 }
 .review-title {
   font-weight: 700;
@@ -691,4 +704,42 @@ button {
   line-height: 1.71429;
   letter-spacing: 0.01em;
   color: #252b42;
+}
+
+/* Good  decision section */
+.decision {
+}
+.container {
+}
+.decision-container {
+  border-radius: 32px;
+  width: 968px;
+  background: #02897a;
+  display: flex;
+  padding: 4px 46px 10px 51px;
+  gap: 10px;
+}
+.decision-wrapper {
+}
+.decision-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+  width: 510px;
+  margin-bottom: 46px;
+  margin-top: 42px;
+}
+.decision-btn {
+  display: block;
+  border-radius: 8px;
+  width: 150px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+  padding: 10px 34px;
+  border: none;
+}
+.decision-img {
 }
